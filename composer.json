@@ -1,0 +1,24 @@
+{
+  "name": "phillipsnick/persistiq",
+  "description": "PHP PersistIQ library",
+  "keywords": [
+    "persistiq",
+    "api"
+  ],
+  "homepage": "https://persistiq.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Phillips",
+      "email": "nick@linkstudios.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": { "PersistIQ\\" : "src/" }
+  }
+}
