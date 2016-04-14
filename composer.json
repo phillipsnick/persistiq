@@ -15,8 +15,8 @@
   ],
   "require": {
     "php": ">=5.4",
-    "ext-curl": "*",
-    "ext-json": "*"
+    "ext-json": "*",
+    "php-curl-class/php-curl-class": "^4.11"
   },
   "autoload": {
     "psr-4": { "PersistIQ\\" : "src/" }

@@ -1,0 +1,11 @@
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+pkg/
+
+# PHP
+/composer.phar
+/vendor/
