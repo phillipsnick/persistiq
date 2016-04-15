@@ -24,10 +24,13 @@ class Leads extends AbstractResource
 
     }
 
-    // TODO:
+    /**
+     * @param string $leadId
+     * @return array
+     */
     public function view($leadId)
     {
-        //TODO:
+        return $this->get('leads/' . $leadId);
     }
 
     /**
